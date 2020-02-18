@@ -5,8 +5,6 @@
 4.递归右边：mid+1,right
 */
 
-
-
 void quick_sort(vector<int>& input, int low, int high){
 	if(low>=high) return;
 	int mid=input[low];
