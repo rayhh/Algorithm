@@ -14,5 +14,5 @@ void topk(vector<int>& input, int low, int high,int k){
 	input[left]=mid;
 	if(left+1==k) return;
 	else if(left>=k) topk(input,low,left-1,k);
-	else topk(input,left+1,high,k-left-1);
+	else topk(input,left+1,high,k);
 }
